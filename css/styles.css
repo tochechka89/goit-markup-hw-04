@@ -154,6 +154,7 @@ address {
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -332,7 +333,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-icon .soc-icon {
@@ -352,16 +353,16 @@ button:focus {
 }
 
 .portfolio-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list {
   width: calc((100% - 48px) / 3);
- transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list:hover{
+.portfolio-list:hover {
   transform: translateY(0%);
-  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);; 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .service {
@@ -407,7 +408,7 @@ button:focus {
   transform: translateY(0%);
 }
 
-.portfolio-cover-text{
+.portfolio-cover-text {
   position: absolute;
   top: 0;
   padding: 40px 32px;
@@ -435,14 +436,15 @@ button:focus {
   align-items: baseline;
 }
 
-.footer-container .container{
+.footer-container .container {
+  margin-right: 120px;
+}
+
+.footer-logo-text {
   margin-right: 120px;
 }
 
 .footer-soc-link {
-  display: flex;
-  align-items: baseline;
-  position: relative;
 }
 
 .link-logo {
@@ -454,7 +456,6 @@ button:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-
 }
 
 .logo-span {
@@ -468,6 +469,7 @@ button:focus {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-top: 16px;
 }
 
 .title-soc {
@@ -504,7 +506,7 @@ button:focus {
 
 .footer-soc-icon:hover,
 .footer-soc-icon:focus {
-  background-color: #31d0aa; 
+  background-color: #31d0aa;
 }
 
 .footer-icon {
